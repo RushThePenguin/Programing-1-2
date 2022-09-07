@@ -1,8 +1,16 @@
 {
   "files": {
+    "favitoreclub.py": [
+      {
+        "id": "85f3ad2e-0ef1-4e37-83f2-ec50482a83ad",
+        "line": 1,
+        "version": 27,
+        "index": 0
+      }
+    ],
     "main.py": [
       {
-        "id": "de4fad92-ca3c-4b0f-b2c4-f3e424cf5575",
+        "id": "e07461bf-32b9-4087-b79c-0e244f02dc8c",
         "line": 1,
         "version": 47,
         "index": 0
