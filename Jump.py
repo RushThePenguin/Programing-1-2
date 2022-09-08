@@ -18,6 +18,10 @@ def main():
     turn_left()
     turn_left()
     turn_left()
+    move()
+    move()
+    move()
+    move()
     pass
 
 
