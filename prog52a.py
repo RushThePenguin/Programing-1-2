@@ -1,5 +1,5 @@
-length = 143
-width = 82
+length = input("Please enter the length: ")
+width = input("Please enter the width: ")
 
 print("The Length is", length)
 print("The width is", width)
