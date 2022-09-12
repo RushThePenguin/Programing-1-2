@@ -33,8 +33,6 @@ def main():
     move()
     move()
     turn_left()
-    turn_left()
-    turn_left()
     move()
   
     pass
