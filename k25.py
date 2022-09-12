@@ -3,18 +3,10 @@ from stanfordkarel import *
 
 def main():
     """ Karel code goes here! """
-    turn_left()
-    turn_left()
-    turn_left()
     move()
     move()
     turn_left()
     move()
-    move()
-    turn_left()
-    move()
-    move()
-    turn_left()
     move()
     pick_beeper()
   
