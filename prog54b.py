@@ -1,12 +1,14 @@
-sum = int(input("Please enter the sum: "))
-average = int(input("Please enter the width: "))
+number1 = int(input("Please enter the number1: "))
+number2 = int(input("Please enter the number2: "))
+number3 = int(input("Please enter the number3: "))
+number4 = int(input("Please enter the number4: "))
 
-print("The Length is", sum)
-print("The width is", average)
+print("The Length is", length)
+print("The width is", width)
 
-area = sum * average
-perim = 2 * sum + 2 * average 
+sum = number1 + number2 + number3 + number4
+average = sum / 4
 
-print("\nThe area is", area)
-print("The perimeter is", perim)
-# Comment - Math Operators: + - * /
+print("The sum is", sum)
+print("The average is", average)
+# Comment - Math Operators: + - * 
