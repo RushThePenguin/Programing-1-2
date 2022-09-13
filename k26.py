@@ -19,6 +19,7 @@ def main():
     turn_left()
     turn_left()
     move()
+    pick_beeper()
     move()
     turn_left()
     turn_left()
