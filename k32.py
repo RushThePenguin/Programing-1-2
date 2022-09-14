@@ -3,7 +3,7 @@ from stanfordkarel import *
 
 def main():
     """ Karel code goes here! """
-    beepers_in_bag(10)
+    beepers_in_bag()
     move()
     turn_left()
     move()
