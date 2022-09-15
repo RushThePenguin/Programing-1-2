@@ -60,14 +60,13 @@ def main():
     put_beeper()
     turn_left()
     turn_left()
-    turn()
+    turn_left()
     move()
     move()
     move()
     move()
     turn_left()
     turn_left()
-    
     pass
 
 
