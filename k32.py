@@ -3,6 +3,7 @@ from stanfordkarel import *
 
 def main():
     """ Karel code goes here! """
+    h()
     beepers_in_bag()
     move()
     turn_left()
@@ -38,8 +39,6 @@ def main():
     move()
     move()
     put_beeper()
-    turn_left()
-    turn_left()
     turn_left()
     move()
     turn_left()
