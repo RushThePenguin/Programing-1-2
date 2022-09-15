@@ -70,7 +70,8 @@ class ktools:
     
 def main():
     """ Karel code goes here! """
-    h()
+    kt = ktools()
+    kt.h()
     pass
 
 
