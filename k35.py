@@ -126,7 +126,7 @@ def main():
     kt.m()
     kt.put2()
     kt.m()
-    kt.put2()
+    kt.put()
     kt.tr()
     kt.m()
     kt.put2()
