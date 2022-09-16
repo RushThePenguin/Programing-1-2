@@ -72,6 +72,22 @@ def main():
     """ Karel code goes here! """
     kt = ktools()
     kt.h()
+    kt.put2()
+    kt.ta()
+    kt.m()
+    kt.m()
+    kt.tr()
+    kt.put2()
+    kt.tr()
+    kt.put2()
+    kt.ta()
+    kt.m()
+    kt.m()
+    kt.tr()
+    kt.put2()
+    kt.tr()
+    kt.put2()
+    
     pass
 
 
