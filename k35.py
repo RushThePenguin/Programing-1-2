@@ -93,7 +93,23 @@ def main():
     kt.tr()
     kt.m()
     kt.put2()
-    
+    kt.m()
+    kt.m()
+    kt.tr()
+    kt.put5()
+    kt.tl()
+    kt.m()
+    kt.put2()
+    kt.m()
+    kt.m()
+    kt.m()
+    kt.put2()
+    kt.ta()
+    kt.m()
+    kt.m()
+    kt.tr()
+    kt.put5()
+    kt
     pass
 
 
