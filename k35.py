@@ -73,6 +73,8 @@ def main():
     kt = ktools()
     kt.h()
     kt.put2()
+    kt.m()
+    kt.put()
     kt.ta()
     kt.m()
     kt.m()
