@@ -10,25 +10,24 @@ class ktools:
     """Turn Left"""
     turn_left()
 
-   def tr(self):
+  def tr(self):
     """Turn Right"""
     self.tl()
     self.tl()
     self.tl()
 
-   def ta(self):
+  def ta(self):
     """Turn Around"""
     self.tl()
     self.tl()
 
-   def pick(self):
+  def pick(self):
     """Pick Beeper"""
     pick_beeper()
 
-   def put(self):
+  def put(self):
     """Put Beeper"""
     put_beeper()
-
   def put2(self):
     """Put 2 beepers in a line"""
     self.put()
@@ -60,6 +59,7 @@ class ktools:
 
 def main():
     """ Karel code goes here! """
+    kt = ktools()
     kt.m4()   
     kt.tl()
     kt.m4()
