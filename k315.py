@@ -10,22 +10,22 @@ class ktools:
     """Turn Left"""
     turn_left()
 
-   def tr(self):
+  def tr(self):
     """Turn Right"""
     self.tl()
     self.tl()
     self.tl()
 
-   def ta(self):
+  def ta(self):
     """Turn Around"""
     self.tl()
     self.tl()
 
-   def pick(self):
+  def pick(self):
     """Pick Beeper"""
     pick_beeper()
 
-   def put(self):
+  def put(self):
     """Put Beeper"""
     put_beeper()
 
@@ -42,13 +42,18 @@ class ktools:
     self.put2()
     self.m()
     self.put()
+  
   def put7(self):
     self.put5()
     self.m()
     self.put2()
 
+  def put6(self):
+    self.put5()
+    self.m()
+    self.put()
+
   def h(self):
-   """Print H using beepers"""
     self.tl()
     self.put5()
     self.tr()
@@ -87,9 +92,10 @@ def main():
     kt.tr()
     kt.m()
     kt.put7()
+    kt.m()
     kt.tr()
-    kt.put7()
-  pass
+    kt.put6()
+    pass
 
 
 if __name__ == "__main__":
