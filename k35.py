@@ -94,13 +94,6 @@ class ktools:
   def l(self):
    self.m()
    self.m()
-   self.tr()
-   self.m()
-   self.m()
-   self.m()
-   self.m()
-   self.tl()
-   self.m()
    self.put2()
    self.ta()
    self.m()
