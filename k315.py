@@ -92,8 +92,8 @@ def main():
     kt.tr()
     kt.m()
     kt.put7()
-    kt.m()
     kt.tr()
+    kt.m()
     kt.put6()
     pass
 
