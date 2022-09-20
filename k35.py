@@ -68,7 +68,7 @@ class ktools:
    self.m()
    self.m()
 
-  def e(self):
+   def e(self):
     """Print E using beepers"""
    self.put2()
    self.m()
@@ -135,7 +135,7 @@ class ktools:
    self.m()
    self.put2()
       
-def main():
+   def main():
     """ Karel code goes here! """
     kt = ktools()
     kt.h()
