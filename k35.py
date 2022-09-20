@@ -67,32 +67,32 @@ class ktools:
    self.m()
    self.m()
    self.m()
-    
-def main():
-    """ Karel code goes here! """
-    kt = ktools()
-    kt.h()
-    kt.put2()
-    kt.m()
-    kt.put()
-    kt.ta()
-    kt.m()
-    kt.m()
-    kt.tr()
-    kt.m()
-    kt.put2()
-    kt.tr()
-    kt.m()
-    kt.put2()
-    kt.ta()
-    kt.m()
-    kt.m()
-    kt.tr()
-    kt.m()
-    kt.put2()
-    kt.tr()
-    kt.m()
-    kt.put2()
+
+   def e(self):
+    """Print E using beepers"""
+   kt.put2()
+   kt.m()
+   kt.put()
+   kt.ta()
+   kt.m()
+   kt.m()
+   kt.tr()
+   kt.m()
+   kt.put2()
+   kt.tr()
+   kt.m()
+   kt.put2()
+   kt.ta()
+   kt.m()
+   kt.m()
+   kt.tr()
+   kt.m()
+   kt.put2()
+   kt.tr()
+   kt.m()
+   kt.put2()
+
+    def l(self):
     kt.m()
     kt.m()
     kt.tr()
@@ -101,6 +101,8 @@ def main():
     kt.m()
     kt.put2()
     kt.m()
+
+    def o(self):
     kt.m()
     kt.m()
     kt.put2()
@@ -132,6 +134,19 @@ def main():
     kt.put2()
     kt.m()
     kt.put2()
+      
+def main():
+    """ Karel code goes here! """
+    kt = ktools()
+    kt.h()
+    kt.e()
+    kt.l()
+    kt.l()
+    kt.o()
+    
+  
+
+  
     pass
 
 
