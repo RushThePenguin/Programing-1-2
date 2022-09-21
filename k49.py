@@ -134,7 +134,8 @@ def main():
     kt.m2()
     kt.mazemove()
     sleep(3)
-    kt.tl()
+
+    
     kt.m()
     
   
