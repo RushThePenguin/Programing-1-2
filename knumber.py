@@ -44,7 +44,7 @@ class ktools:
     self.put()
 
   def h(self):
-   """Print H using beepers"""
+    """Print H using beepers"""
     self.tl()
     self.put5()
     self.tr()
@@ -79,15 +79,15 @@ class ktools:
     self.m2()
     self.m()
 
-  def fic(self):-> bool:
+  def fic(self):
     """Front is Clear"""
     return front_is_clear()
 
-  def fib(self):-> bool:
+  def fib(self):
     """Front is Blocked"""
     return not self.fic()
 
-  def ric(self): -> bool:
+  def ric(self): 
     """Right is Clear"""
     self.tr()
     if self.fic():
@@ -128,6 +128,20 @@ def main():
     kt.m()
     kt.put()
     kt.tr()
+    kt.m2()
+    kt.put2()
+    kt.m()
+    kt.tr()
+    kt.put2()
+    kt.m()
+    kt.tr()
+    kt.put2()
+    kt.m()
+    kt.tr()
+    kt.put2()
+    kt.m()
+    kt.tr()
+    kt.m2()
     kt.m2()
     kt.put2()
     kt.m()
