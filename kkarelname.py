@@ -132,6 +132,34 @@ class ktools:
     self.tl()
     self.m2()
 
+  def X(self):
+    self.put()
+    self.m()
+    self.tl()
+    self.m()
+    self.put()
+    self.m()
+    self.tr()
+    self.m()
+    self.put()
+    self.m()
+    self.tl()
+    self.m()
+    self.put()
+    self.ta()
+    self.m2()
+    self.m()
+    self.put()
+    self.tr()
+    self.m()
+    self.tr()
+    self.m()
+    slef.put()
+    self.m()
+    self.tl()
+    self.m()
+    self.t
+
   def fic(self):
     """Front is Clear"""
     return front_is_clear()
@@ -193,6 +221,7 @@ def main():
     kt = ktools()
     kt.M()
     kt.A()
+    kt.X()
   
     pass
 
