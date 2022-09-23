@@ -105,7 +105,7 @@ class ktools:
     self.tr()
     self.put2()
     self.m()
-    self.put()
+    self.put2()
     self.tl()
     self.m2()
 
@@ -128,7 +128,7 @@ class ktools:
     self.m()
     self.tr()
     self.m()
-    self.put2()
+    self.put()
     self.tl()
     self.m2()
 
