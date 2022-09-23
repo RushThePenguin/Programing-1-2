@@ -43,6 +43,11 @@ class ktools:
     self.m()
     self.put()
 
+  def put3(self):
+    self.put2()
+    self.m()
+    self.put()
+
   def h(self):
     """Print H using beepers"""
     self.tl()
@@ -124,7 +129,22 @@ def main():
     """ Karel code goes here! """
     kt = ktools()
     kt.m2()
-    
+    kt.tl()
+    kt.m2()
+    kt.put()
+    kt.m()
+    kt.put3()
+    kt.tr()
+    kt.m()
+    kt.put3()
+    kt.tr()
+    kt.m()
+    kt.put3()
+    kt.tr()
+    kt.m()
+    kt.put3()
+    kt.tr()
+
     pass
 
 
