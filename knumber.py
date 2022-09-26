@@ -68,6 +68,14 @@ class ktools:
     self.m()
     self.m()
 
+  def 1(self):
+    self.tl()
+    self.put2()
+    self.m()
+    self.put()
+    self.tr()
+    self.m2()
+
   def m2(self):
     """Move 2"""
     self.m()
@@ -137,7 +145,9 @@ class ktools:
     
 def main():
     """ Karel code goes here! """
-    
+    kt = ktools() 
+    kt.put2()
+
     pass
 
 
