@@ -197,6 +197,54 @@ class ktools:
     self.m2()
     self.tr()
     self.m2()
+    self.tr()
+    self.m2()
+    self.m2()
+    self.tl()
+
+  def E(self):
+   self.put2()
+   self.m()
+   self.put()
+   self.ta()
+   self.m()
+   self.m()
+   self.tr()
+   self.m()
+   self.put2()
+   self.tr()
+   self.m()
+   self.put2()
+   self.ta()
+   self.m()
+   self.m()
+   self.tr()
+   self.m()
+   self.put2()
+   self.tr()
+   self.m()
+   self.put2()
+
+  def L(self):
+   self.m()
+   self.m()
+   self.tr()
+   self.m()
+   self.m()
+   self.m()
+   self.m()
+   self.tl()
+   self.m()
+   self.put2()
+   self.ta()
+   self.m()
+   self.m()
+   self.tr()
+   self.put5()
+   self.tr()
+   self.m()
+   self.m()
+
 
   def fic(self):
     """Front is Clear"""
@@ -260,6 +308,10 @@ def main():
     kt.M()
     kt.A()
     kt.X()
+    kt.W()
+    kt.E()
+    kt.L()
+    kt.L()
   
     pass
 
