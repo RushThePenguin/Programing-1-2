@@ -164,7 +164,7 @@ def main():
     kt.tl()
     kt.m()
     kt.tr()
-    kt.m2()
+    kt.m()
     kt.tr()
     kt.m()
     
