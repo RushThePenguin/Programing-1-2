@@ -198,7 +198,7 @@ class ktools:
     self.ta()
     self.put2()
     self.m2()
-    self.tr()
+    self.tl()
     self.m2()
 
   def E(self):
