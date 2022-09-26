@@ -161,6 +161,7 @@ def main():
     kt.mazemove()
     sleep(3)
 
+    kt.tl()
     kt.m()
     kt.tr()
     kt.m2()
