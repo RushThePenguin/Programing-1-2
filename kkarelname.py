@@ -198,7 +198,6 @@ class ktools:
     self.ta()
     self.put2()
     self.m2()
-    self.m2()
     self.tr()
     self.m2()
 
