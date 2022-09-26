@@ -178,7 +178,7 @@ class ktools:
     self.put2()
     self.ta()
     self.m2()
-    self.tl()
+    self.tr()
     self.m()
     self.tl()
     self.m()
