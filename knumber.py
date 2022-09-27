@@ -73,7 +73,7 @@ class ktools:
     self.m()
     self.m()
 
-  def 1(self):
+  def one(self):
     self.tl()
     self.put2()
     self.m()
@@ -81,7 +81,7 @@ class ktools:
     self.tr()
     self.m2()
 
-  def 0(self):
+  def zero(self):
     self.m()
     self.put2()
     self.tr()
@@ -168,9 +168,16 @@ class ktools:
 def main():
     """ Karel code goes here! """
     kt = ktools() 
-    kt.1()
-    kt.0(9)
-
+    kt.one()
+    kt.zero()
+    kt.zero()
+    kt.zero()
+    kt.zero()
+    kt.zero()
+    kt.zero()
+    kt.zero()
+    kt.zero()
+    kt.zero()
     pass
 
 
