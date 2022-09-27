@@ -169,15 +169,8 @@ def main():
     """ Karel code goes here! """
     kt = ktools() 
     kt.one()
-    kt.zero()
-    kt.zero()
-    kt.zero()
-    kt.zero()
-    kt.zero()
-    kt.zero()
-    kt.zero()
-    kt.zero()
-    kt.zero()
+    for i in range(9):
+      kt.zero()
     pass
 
 
