@@ -134,11 +134,11 @@ class ktools:
       self.m()
       self.put()
 
-    def SOB(self):
+  def SOB(self):
       """Standing on Beeper"""
       return beepers_present()
 
-    def jump(self):
+  def jump(self):
       """Jump for 510"""
       while self.fic():
         self.m()
@@ -152,7 +152,7 @@ class ktools:
         self.m()
       self.tl()
 
-    def find(self):
+  def find(self):
       """Find for 515"""
       while not facing_north():
         self.tl()
