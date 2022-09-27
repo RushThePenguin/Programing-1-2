@@ -150,7 +150,7 @@ class ktools:
       self.tr()
       while self.fic():
         self.m()
-        self.tl()
+      self.tl()
 
     def find(self):
       """Find for 515"""
