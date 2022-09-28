@@ -185,15 +185,22 @@ def main():
     kt.m()
     kt.pick2()
     kt.tr()
+    kt.m()
+    kt.tr()
     kt.m2()
+    kt.tl()
+    kt.m()
+    kt.tl()
+    kt.pick2()
+    kt.tr()
+    kt.m2()
+    kt.m()
     kt.tr()
     kt.m()
-    kt.pick2()
-    kt.tl()
-    kt.m2()
-    kt.m()
     kt.pick()
+    kt.tr()
     kt.m()
+    
     
     
     pass
