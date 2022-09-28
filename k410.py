@@ -198,7 +198,6 @@ def main():
     kt.m()
     kt.tl()
     kt.m2()
-    kt.m()
     kt.pick()
     kt.m()
     
