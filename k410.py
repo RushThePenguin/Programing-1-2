@@ -195,7 +195,7 @@ def main():
     kt.tr()
     kt.m()
     kt.tr()
-    kt.m2()
+    kt.m()
     kt.tl()
     kt.m2()
     kt.m()
