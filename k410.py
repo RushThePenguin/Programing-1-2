@@ -198,7 +198,7 @@ def main():
     kt.tr()
     kt.m()
     kt.pick()
-    kt.tr()
+    kt.tl()
     kt.m()
     
     
