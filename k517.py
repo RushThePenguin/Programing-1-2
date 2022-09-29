@@ -174,11 +174,35 @@ class ktools:
 def main():
     """ Karel code goes here! """
     kt = ktools()
-    for i in range(20):
-     right_is_blocked()
-      move()
-     right_is_clear()
-      turn_left()
+    kt.m2()
+    kt.tl()
+    kt.m()
+    kt.tl()
+    kt.m2()
+    kt.tr()
+    kt.m2()
+    kt.m2()
+    kt.tr()
+    kt.m2()
+    kt.m2()
+    kt.tl()
+    kt.m2()
+    kt.tr()
+    kt.m2()
+    kt.m2()
+    kt.tr()
+    kt.m()
+    kt.tl()
+    kt.m2()
+    kt.tl()
+    kt.m2()
+    kt.m()
+    kt.tr()
+    kt.m()
+    kt.tr()
+    kt.m()
+    kt.pick()
+     
     
     
     pass
