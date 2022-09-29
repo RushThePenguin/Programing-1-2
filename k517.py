@@ -174,8 +174,11 @@ class ktools:
 def main():
     """ Karel code goes here! """
     kt = ktools()
-   for i in range(9):
-     kt.mazemove()
+    for i in range(20):
+     right_is_blocked()
+      move()
+     right_is_clear()
+      turn_left()
     
     
     pass
