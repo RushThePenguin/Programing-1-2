@@ -200,7 +200,6 @@ def main():
     kt.pick()
     kt.m5()
     kt.pick()
-    kt.tl()
     pass
 
 
