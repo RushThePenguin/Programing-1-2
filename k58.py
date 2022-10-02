@@ -25,14 +25,6 @@ class ktools:
     """Pick Beeper"""
     pick_beeper()
 
-  def pick6(self):
-    self.pick()
-    self.pick()
-    self.pick()
-    self.pick()
-    self.pick()
-    self.pick()
-
   def put(self):
     """Put Beeper"""
     put_beeper()
@@ -187,15 +179,9 @@ def main():
     kt.tl()
     kt.m2()
     kt.m2()
-    kt.pick()
-    kt.tl()
-    kt.pick()
-    kt.tl()
-    kt.pick()
-    kt.tl()
-    kt.m()
-    kt.pick6()
-    
+    kt.tr()
+    for i in range(9):
+      kt.
     pass
 
 
