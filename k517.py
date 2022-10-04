@@ -78,7 +78,7 @@ class ktools:
     self.m2()
     self.m2()
     self.m()
-
+  
   def fic(self):
     """Front is Clear"""
     return front_is_clear()
@@ -150,7 +150,7 @@ class ktools:
       self.tr()
       while self.fic():
         self.m()
-        self.tl()
+      self.tl()
 
     def find(self):
       """Find for 515"""
@@ -174,34 +174,15 @@ class ktools:
 def main():
     """ Karel code goes here! """
     kt = ktools()
-    kt.m2()
-    kt.tl()
-    kt.m()
-    kt.tl()
-    kt.m2()
-    kt.tr()
-    kt.m2()
-    kt.m2()
-    kt.tr()
-    kt.m2()
-    kt.m()
-    kt.tl()
-    kt.m2()
-    kt.tr()
-    kt.m2()
-    kt.m()
-    kt.tr()
-    kt.m()
-    kt.tl()
-    kt.m2()
-    kt.tl()
-    kt.m2()
-    kt.m()
-    kt.tr()
-    kt.m()
-    kt.tr()
-    kt.m()
-    kt.pick()
+    for i in range(5): 
+     while kt.rib():
+       kt.m()
+       while not kt.fib():
+         kt.tl()
+  
+
+
+   
      
     
     

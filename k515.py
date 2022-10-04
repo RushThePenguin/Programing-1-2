@@ -115,6 +115,20 @@ class ktools:
 
     pass
 
+  def jump(self):
+      """Jump for 510"""
+      while self.fic():
+        self.m()
+      self.tl()
+      while self.rib():
+        self.m()
+      self.tr()
+      self.m()
+      self.tr()
+      while self.fic():
+        self.m()
+        self.tl()
+
   def mm(self, num):
     """Move Multiple"""
     for number in range(num):
@@ -137,21 +151,7 @@ class ktools:
   def SOB(self):
       """Standing on Beeper"""
       return beepers_present()
-
-  def jump(self):
-      """Jump for 510"""
-      while self.fic():
-        self.m()
-      self.tl()
-      while self.rib():
-        self.m()
-      self.tr()
-      self.m()
-      self.tr()
-      while self.fic():
-        self.m()
-      self.tl()
-
+ 
   def find(self):
       """Find for 515"""
       while not facing_north():
@@ -183,7 +183,6 @@ def main():
       kt.pick()
       kt.find()
     pass
-
-
+  
 if __name__ == "__main__":
     run_karel_program()
