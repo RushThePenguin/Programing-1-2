@@ -187,15 +187,16 @@ def main():
     kt.tl()
     kt.m2()
     kt.m2()
-    kt.pick()
-    kt.tl()
-    kt.pick()
-    kt.tl()
-    kt.pick()
-    kt.tl()
+    kt.tr()
+    for i in range(3):
+      kt.pick()
     kt.m()
-    kt.pick6()
-    
+    for i in range(6):
+      kt.pick()
+    kt.ta()
+    kt.m2()
+    for i in range(11):
+      kt.pick()
     pass
 
 
