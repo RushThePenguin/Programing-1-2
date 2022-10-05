@@ -180,8 +180,52 @@ def main():
     kt.m2()
     kt.m2()
     kt.tr()
-    for i in range(9):
-      kt.
+    for i in range(5):
+     kt.put()
+     kt.m()
+    kt.tl()
+    kt.put()
+    kt.m()
+    kt.tl()
+    for i in range(5):
+      kt.put()
+      kt.m()
+    kt.tr()
+    for i in range(3):
+      kt.put()
+      kt.m()
+    kt.tl()
+    kt.put()
+    kt.m()
+    kt.tl()
+    for i in range(3):
+      kt.put()
+      kt.m()
+    kt.tr()
+    kt.put()
+    kt.m()
+    kt.put()
+    kt.tl()
+    kt.m()
+    kt.put()
+    kt.tl()
+    kt.m()
+    kt.tr()
+    for i in range(3):
+      kt.put()
+      kt.m()
+    kt.tl()
+    kt.put()
+    kt.m()
+    kt.tl()
+    for i in range(3):
+      kt.put()
+      kt.m()
+    
+    
+         
+
+  
     pass
 
 
