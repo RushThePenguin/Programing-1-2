@@ -174,7 +174,15 @@ class ktools:
 def main():
     """ Karel code goes here! """
     kt = ktools()
-    
+    kt.m()
+    kt.tl()
+    kt.m5()
+    kt.tr()
+    for i in range(18):
+      kt.put()
+      kt.m()
+      if front_is_blocked():
+       kt.tr()
     
     pass
 
