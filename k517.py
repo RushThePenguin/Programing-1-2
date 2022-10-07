@@ -174,11 +174,34 @@ class ktools:
 def main():
     """ Karel code goes here! """
     kt = ktools()
-    for i in range(5): 
-     while kt.rib():
-       kt.m()
-       while not kt.fib():
-         kt.tl()
+    kt.m2()
+    kt.tl()
+    kt.m()
+    kt.tl()
+    kt.m2()
+    kt.tr()
+    kt.m2()
+    kt.m2()
+    kt.tr()
+    kt.m2()
+    kt.m()
+    kt.tl()
+    kt.m2()
+    kt.tr()
+    kt.m2()
+    kt.m()
+    kt.tr()
+    kt.m()
+    kt.tl()
+    kt.m2()
+    kt.tl()
+    kt.m2()
+    kt.m()
+    kt.tr()
+    kt.m()
+    kt.tr()
+    kt.m()
+    kt.pick()
   
 
 
